@@ -181,12 +181,11 @@ int main() {
                 string encFilePath = filePath + ".enc";
                 string treeFilePath = filePath+ ".tree";
 
+                system(string("shasum "+ filePath).c_str());
+
                 /*encoded*/
                 Huffman codex(filePath,encFilePath,treeFilePath);
                 codex.encode();
-
-                system(string("shasum "+ filePath).c_str());
-
 
                 /*upload tree and encoded file*/
                 client.uploadFile(encFilePath, localIP);

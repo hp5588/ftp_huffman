@@ -113,7 +113,7 @@ bool Server::run() {
 
         if (acceptedPD < 0) {
             cout << "accept fail" << endl;
-            cout << "errno " << errno << endl;
+            cout << "socket error num: " << errno << endl;
             continue;
         }
         cout << "new client connected" <<endl;
@@ -122,13 +122,16 @@ bool Server::run() {
 //        cout << "send welcome message" <<endl;
         this->writeResponse(acceptedPD,welcomeMessage);
 
-
-        /*TODO create thread for each connection later*/
         /*while loop*/
         ThreadData threadData;
         threadData.socketFD = acceptedPD;
 
         this->handlerThread(threadData);
+
+
+        /*remove after client disconnect*/
+        close(acceptedPD);
+        socketVector.erase(find(socketVector.begin(),socketVector.end(),acceptedPD));
 
         cout << "waiting for new client..." <<endl;
 
@@ -154,7 +157,6 @@ void Server::handlerThread(ThreadData parameter) {
             cout << "connection ended with status " <<status << endl;
             return;
         }
-
     }
 }
 
