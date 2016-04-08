@@ -82,6 +82,8 @@ int FTPClient::readResponse(string &data, uint16_t length) {
     char buffer[length];
     int status;
 
+    /*clean buffer*/
+    memset(buffer,0,sizeof(buffer));
     status = read(socketFD, buffer,length);
 
     if (status<0){
@@ -267,7 +269,26 @@ int FTPClient::uploadFile(string fileName, string fromLocalIP) {
     return 0;
 }
 
+bool FTPClient::socketIsConnected(int socketFD) {
+    int error_code = this->getErrorCode(socketFD);
+    cout << "socket error code "<<error_code <<endl;
+    if (error_code==EPIPE){
+        cout << "socket is broken" <<endl;
+        return false;
+    }
+    return true;
+}
 
+
+int FTPClient::getErrorCode(int socketFD) {
+    int error_code;
+    socklen_t error_code_size = sizeof(error_code);
+    getsockopt(socketFD, SOL_SOCKET, SO_ERROR, &error_code, &error_code_size);
+
+//    cout << "error_code" << error_code;
+    return error_code;
+
+}
 
 
 

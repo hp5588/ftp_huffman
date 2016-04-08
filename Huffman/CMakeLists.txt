@@ -8,12 +8,18 @@ set(SOURCE_FILES
         include/TreeNode.h
         src/huffman/TreeNode.cpp
         )
-set(HUFFMAN_INCLUDE_DIRS ${PROJECT_SOURCE_DIR}/Huffman/include)
+
+set(HUFFMAN_INCLUDE_DIRS ${PROJECT_SOURCE_DIR}/include)
+set(HUFFMAN_INCLUDE_DIRS ${HUFFMAN_INCLUDE_DIRS} PARENT_SCOPE)
+
+include_directories(${HUFFMAN_INCLUDE_DIRS})
+
+
 
 #file(GLOB HUFFMAN_SRC ${SOURCE_FILES})
 
 
-add_library(${PROJECT_NAME} SHARED ${SOURCE_FILES})
+add_library(${PROJECT_NAME} STATIC ${SOURCE_FILES})
 
 
 

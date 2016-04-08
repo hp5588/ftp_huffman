@@ -14,13 +14,13 @@
 #include <fstream>
 #include "Server.h"
 #include "tools/Command.h"
-#include "huffman/Huffman.h"
+#include <Huffman.h>
 
 int status = 1;
 string Address;
 uint16_t Port;
 //bool running=1;
-//vector<int> socketVector;
+vector<int> socketVector;
 
 void signalHandle(int sig){
     switch (sig){
@@ -29,12 +29,12 @@ void signalHandle(int sig){
             break;
         }
         case SIGINT:{
-/*
+            status = -1;
             for(int socket : socketVector){
                 close(socket);
-                cout << "socket: " << socket <<" will be close"<<endl;
+                cout << "socket: " << socket << " will be closed" << endl;
             }
-*/
+            exit(0);
 
 //            socketVector.clear();
 //            cout << "pid:"<< getpid() <<"  "+ Address +":" + to_string(Port) <<" will be CLOSED now" << endl;
@@ -43,11 +43,12 @@ void signalHandle(int sig){
 
         }
         case SIGKILL:{
+            cout << "kill signal received" <<endl;
 
             break;
         }
     }
-    cout << sig << "signal receive"<<endl;
+//    cout << "signal receive" << sig <<endl;
 
 }
 
@@ -60,10 +61,12 @@ Server::Server(string serverIP, uint16_t portToListen) {
         this->port = portToListen;
     }
 
-    this->init();
+//    this->init();
 }
 
 bool Server::run() {
+
+    this->init();
     /*interrupts handle*/
     signal(SIGTRAP,signalHandle);
     signal(SIGINT,signalHandle);
@@ -90,7 +93,7 @@ bool Server::run() {
     /*print connection info*/
     cout << "Listening on: " << ip.c_str() << ":" << port <<endl;
 
-//    socketVector.push_back(socketFD);
+    socketVector.push_back(socketFD);
 
 
     /*accept*/
@@ -106,7 +109,7 @@ bool Server::run() {
         socklen_t addrLenght = 4;
         int acceptedPD = accept(socketFD, &clientAddr, &addrLenght);
 
-//        socketVector.push_back(acceptedPD);
+        socketVector.push_back(acceptedPD);
 
         if (acceptedPD < 0) {
             cout << "accept fail" << endl;

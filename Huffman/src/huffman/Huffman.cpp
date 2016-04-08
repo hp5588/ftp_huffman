@@ -8,8 +8,8 @@
 #include <cstring>
 #include <sstream>
 #include <unistd.h>
-#include "../../include/Huffman.h"
-#include "../../include/TreeNode.h"
+#include "Huffman.h"
+#include "TreeNode.h"
 
 
 Huffman::Huffman(const string &inputFileName, const string &outputFileName, const string &treeFileName) {
@@ -84,19 +84,6 @@ int Huffman::encode() {
     }
 
 
-/*    for (int i = 0; i < occurrenceVector.size(); ++i) {
-        Occurrence *oc = &occurrenceVector[i];
-
-        TreeNode *leafNode = new TreeNode();
-        leafNode->setChildL(0);
-        leafNode->setChildR(0);
-        leafNode->setOriginValue(oc->originalValue);
-        leafNode->setParent(0);
-        oc->node = leafNode;
-        oc->isRoot = false;
-
-        leafsVector.push_back(leafNode);
-    }*/
 
 
     while (occurrenceVector.size()>1){
@@ -235,7 +222,7 @@ int Huffman::encode() {
 
 
 
-    /*save tree file as csv format*/
+    /*save tree file in csv format*/
     for (TreeNode *leafNode : leafsVector) {
         string leafDataString =
                 string(bitset<32>(leafNode->getCode()).to_string())

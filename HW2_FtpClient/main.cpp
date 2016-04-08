@@ -3,7 +3,7 @@
 #include "src/FTPClient.h"
 #include "src/FTP.h"
 #include "src/tools/Command.h"
-#include "src/huffman/Huffman.h"
+#include <Huffman.h>
 #include <unistd.h>
 #include <sys/socket.h>
 #include <cinttypes>
@@ -84,7 +84,6 @@ int main() {
         command.extractCommand(cmd,cmds);
 
 
-//        cout << cmds <<endl;
 
 
         int function = findStringInArray(cmdList,sizeof(cmdList)/sizeof(*cmdList),cmds.at(0));
@@ -96,12 +95,18 @@ int main() {
             }
 
             case 1:{
+                /*connect*/
+                if (client.disconnect()<0){
+                    break;
+                }
 //                get user set ip and port
                 if (cmds.size()==3){
 //                    user give two parameter
 //                    set ip and port
                     ip = cmds.at(1);
                     port = cmds.at(2);
+
+
 
                     /*resert ip and port*/
                     client.setIP(ip);
@@ -110,9 +115,15 @@ int main() {
                     uint16_t port = strtoimax(start,&end,0);
                     client.setPort(port);
 
-                    /*TODO: disconnect from server*/
+
+
+                    string response;
+                    client.readResponse(response,500);
 
                 } else if (cmds.size()==1){
+/*                    if (client.socketIsConnected(client.getSocketFD())){
+                        break;
+                    }*/
                     /*no extra command then use default value*/
                     /*value already set in the initial condition*/
 
@@ -128,9 +139,23 @@ int main() {
                     break;
                 }
 
+
+
+                break;
+            }
+/*            case 2:{
+                *//*disconnect*//*
+                if(client.disconnect()<0){
+                    cout << "socket close fail" <<endl;
+                }
+                break;
+            }*/
+
+            case 3:{
+                /*login*/
                 string response;
 
-                client.readResponse(response,500);
+//                client.readResponse(response,500);
 
                 client.sendCmd(FTP_CMD_USER, DEFAULT_USER);
                 client.readResponse(response,500);
@@ -138,20 +163,7 @@ int main() {
                 client.sendCmd(FTP_CMD_PASS, DEFAULT_PASSWORD);
                 client.readResponse(response,500);
 
-                client.checkResponse(response)<0;
-
-                break;
-            }
-            case 2:{
-                /*disconnect*/
-                if(client.disconnect()<0){
-                    cout << "socket close fail" <<endl;
-                }
-                break;
-            }
-
-            case 3:{
-                /*login*/
+//                client.checkResponse(response)<0;
 
                 break;
             }
@@ -175,6 +187,8 @@ int main() {
 
                 system(string("shasum "+ filePath).c_str());
 
+
+                /*upload tree and encoded file*/
                 client.uploadFile(encFilePath, localIP);
                 client.uploadFile(treeFilePath, localIP);
 

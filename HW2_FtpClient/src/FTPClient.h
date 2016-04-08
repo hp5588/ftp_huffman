@@ -14,10 +14,9 @@ struct Server{
 };
 
 class FTPClient {
+
 private:
-
-
-    /*socket variables*/
+/*socket variables*/
     int socketFD =-1;
     string ip;
     uint16_t port;
@@ -28,22 +27,32 @@ private:
 
 public:
 
+    /*active FTP*/
+
     FTPClient(string ip, uint16_t port);
     int init();
     int connectToServer();
     int disconnect();
-    int uploadFile(string fileName, string fromLocalIP);
+    int uploadFile(string fileName, string fromLocalIP);/*port is by random*/
 
     /*setter*/
     void setIP(string ip);
     void setPort(uint16_t port);
 
+    /*getter*/
+    int getSocketFD() const {
+        return socketFD;
+    }
 
+    /*tools*/
     int sendCmd(string cmd, string payload);
     int readResponse(string &data, uint16_t length);
 
+    int getErrorCode(int socketFD);
+    bool socketIsConnected(int socketFD);
+
+
     int checkResponse(string response);
-private:
 };
 
 #endif //FTPCLIENT_CLIENT_H

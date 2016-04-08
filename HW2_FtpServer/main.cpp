@@ -74,19 +74,22 @@ int main() {
                         server.setPort(stoi(cmds.at(2)));
                         server.run();
                     }
+                    exit(0);
 
                 } else {
                     pidList.push_back(pid);
                     continue;
                 }
             }else{
-                cout << "command error" <<endl;
+                cout << "command parameter error" <<endl;
             }
         }else if (cmds.at(0).compare("stop") ==0 ){
             int pidUser = stoi(cmds.at(1));
             for (int pid : pidList){
                 if (pid == pidUser){
-                    kill(pid,SIGKILL);
+                    kill(pid,SIGINT);
+                    std::vector<int>::iterator p = std::find(pidList.begin(), pidList.end(), pid);
+                    pidList.erase(p, p + 1);
                 }
             }
         }else if (cmds.at(0).compare("status") ==0 ){
@@ -107,7 +110,7 @@ int main() {
 
             continue;
         }else{
-            cout << "command not fount" << endl;
+            cout << "command not found" << endl;
         }
 
     }
@@ -116,7 +119,7 @@ int main() {
 }
 
 void childDieHandle(int sig) {
-    if (SIGCHLD == sig) {
+/*    if (SIGCHLD == sig) {
         for (int pid : pidList) {
             int status;
             waitpid(pid, &status, WNOHANG);
@@ -126,9 +129,9 @@ void childDieHandle(int sig) {
                 cout << "pid " << pid << " die" << endl;
             }
 //            cout << "status :" << status << endl;
-            cout << pid << "status:" << status << endl;
+            cout << pid << " status:" << status << endl;
         }
-    }
+    }*/
 }
 
 void help(vector<string> commandList) {
