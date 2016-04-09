@@ -42,12 +42,12 @@ after entering the command above, the folder structure suppose to look like this
     * cd path/to/build/folder
 2. **Execute Server**
 	#in build folder
-	* \$cd HW2_FtpServer/
-	* \$./ftpClient
+	* $cd HW2_FtpServer/
+	* $./ftpClient
 3. **Execute Client**
 	#in build folder
-	* \$cd HW2_FtpClient/
-	* \$./ftpServer
+	* $cd HW2_FtpClient/
+	* $./ftpServer
 
 ##Usage
 
