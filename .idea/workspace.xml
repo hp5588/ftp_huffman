@@ -14,100 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d85e4db-8c6c-4c4f-8ce2-31817ac3fb84" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.odt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeCache.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/3.5.1/CMakeSystem.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/3.5.1/CompilerIdC/a.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/CMakeOutput.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/Makefile.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/Makefile2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/TargetDirectories.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/cmake.check_cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/feature_tests.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/feature_tests.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/feature_tests.cxx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/ftpClient.dir/CXX.includecache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/ftpClient.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/ftpClient.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/ftpClient.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/ftpClient.dir/depend.internal" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/ftpClient.dir/depend.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/ftpClient.dir/flags.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/ftpClient.dir/link.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/ftpClient.dir/main.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/ftpClient.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/ftpClient.dir/src/FTPClient.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/ftpClient.dir/src/huffman/Huffman.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/ftpClient.dir/src/huffman/Tree.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/ftpClient.dir/src/huffman/TreeNode.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/ftpClient.dir/src/tools/Command.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/CMakeFiles/progress.marks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/cmake_install.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/file.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/file.txt.enc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/file.txt.enc.tree" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/file.txt.tree" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/ftpClient" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/ftpClientC" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/output.enc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/build/tree.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/decoded.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/file.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/file3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/output.enc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/receive/file.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/receive/fileC.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/receive/ftpClientN" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/receive/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpClient/tree.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeCache.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/3.5.1/CMakeSystem.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/3.5.1/CompilerIdC/a.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/CMakeOutput.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/HW2_FtpServer.dir/CXX.includecache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/HW2_FtpServer.dir/DependInfo.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/HW2_FtpServer.dir/build.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/HW2_FtpServer.dir/cmake_clean.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/HW2_FtpServer.dir/depend.internal" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/HW2_FtpServer.dir/depend.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/HW2_FtpServer.dir/flags.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/HW2_FtpServer.dir/link.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/HW2_FtpServer.dir/main.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/HW2_FtpServer.dir/progress.make" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/HW2_FtpServer.dir/src/Server.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/HW2_FtpServer.dir/src/tools/Command.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/Makefile.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/Makefile2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/TargetDirectories.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/cmake.check_cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/feature_tests.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/feature_tests.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/feature_tests.cxx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/CMakeFiles/progress.marks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/HW2_FtpServer" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/cmake_install.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/file.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/file.txt.enc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2_FtpServer/build/file.txt.tree" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ftp.iws" />
@@ -154,8 +61,8 @@
       <file leaf-file-name="FTPClient.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HW2_FtpClient/src/FTPClient.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="116" column="64" selection-start-line="116" selection-start-column="64" selection-end-line="116" selection-end-column="64" />
+            <state relative-caret-position="207">
+              <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -551,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1460119266432</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Readme added">
+      <created>1460191024240</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1460191024240</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -562,7 +476,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285068" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32765958" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285068" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -594,7 +508,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Rejected commit: Default" />
     <MESSAGE value="bugs fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="bugs fix" />
+    <MESSAGE value="Readme added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -946,8 +861,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HW2_FtpClient/src/FTPClient.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="116" column="64" selection-start-line="116" selection-start-column="64" selection-end-line="116" selection-end-column="64" />
+        <state relative-caret-position="207">
+          <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
           <folding />
         </state>
       </provider>
