@@ -1,3 +1,0 @@
-/home/brian/git/HW2_FtpClient/build/CMakeFiles/rebuild_cache.dir
-/home/brian/git/HW2_FtpClient/build/CMakeFiles/edit_cache.dir
-/home/brian/git/HW2_FtpClient/build/CMakeFiles/ftpClient.dir

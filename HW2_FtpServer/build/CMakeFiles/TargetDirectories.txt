@@ -1,3 +1,0 @@
-/home/brian/git/HW2_FtpServer/build/CMakeFiles/edit_cache.dir
-/home/brian/git/HW2_FtpServer/build/CMakeFiles/rebuild_cache.dir
-/home/brian/git/HW2_FtpServer/build/CMakeFiles/HW2_FtpServer.dir

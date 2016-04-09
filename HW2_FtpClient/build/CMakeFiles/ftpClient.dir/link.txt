@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++0x   CMakeFiles/ftpClient.dir/main.cpp.o CMakeFiles/ftpClient.dir/src/FTPClient.cpp.o CMakeFiles/ftpClient.dir/src/tools/Command.cpp.o CMakeFiles/ftpClient.dir/src/huffman/Huffman.cpp.o CMakeFiles/ftpClient.dir/src/huffman/TreeNode.cpp.o CMakeFiles/ftpClient.dir/src/huffman/Tree.cpp.o  -o ftpClient -rdynamic 

@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11   CMakeFiles/HW2_FtpServer.dir/main.cpp.o CMakeFiles/HW2_FtpServer.dir/src/Server.cpp.o CMakeFiles/HW2_FtpServer.dir/src/tools/Command.cpp.o  -o HW2_FtpServer 
