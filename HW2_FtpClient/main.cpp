@@ -63,7 +63,7 @@ int main() {
             {"connect [server ip] [port]",  "connect to server with specified ip and port"},
             {"encode [file path]",          "encode a file (file,file.enc,file.tree)"},
             {"decode [file path]",          "decode a file (file,file.enc,file.tree)"},
-            {"login [user] [password]",     "login into server using default user and password"},
+            {"login [user] [password]",     "login into server using user and password"},
             {"quit",                        "end this client"},
             {"help",                        "show this help"}
 

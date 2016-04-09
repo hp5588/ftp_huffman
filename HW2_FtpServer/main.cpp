@@ -30,7 +30,7 @@ int main() {
     vector<pair<string,string>> commandList = {
             {"run [server ip] [port]",  "open a new server with ip and port provided"},
             {"stop [pid]",              "stop a server by specifying its pid (status can tell)"},
-            {"status",                  "the server which are running now"},
+            {"status",                  "show servers which are running now"},
             {"quit",                    "end all servers and quit program"},
             {"help",                    "show this help"}
     };

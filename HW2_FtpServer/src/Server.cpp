@@ -35,10 +35,6 @@ void signalHandle(int sig){
                 cout << "socket: " << socket << " will be closed" << endl;
             }
             exit(0);
-
-//            socketVector.clear();
-//            cout << "pid:"<< getpid() <<"  "+ Address +":" + to_string(Port) <<" will be CLOSED now" << endl;
-//            running = 0;
             break;
 
         }
