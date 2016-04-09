@@ -13,6 +13,7 @@
 following instructions will build the top level CMakeLists
 
 	cd path/to/root
+	git clone https://github.com/hp5588/ftp_huffman.git
 	mkdir build
 	cd build
 	cmake ../ftp_huffman
