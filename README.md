@@ -1,7 +1,7 @@
 #**FTP Server & Client**
-###With Huffman Encoder
+###With Huffman Encoder###
 
-##Author
+##Author#
 
 	高伯文, EE, NSYSU  (B013012011)
 
