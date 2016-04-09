@@ -1,5 +1,5 @@
-#**FTP Server & Client**#
-###With Huffman Encoder###
+#**FTP Server & Client**
+###With Huffman Encoder
 
 ##Author#
 
