@@ -1,16 +1,14 @@
 **FTP Server & Client**
-=
+==============
 With Huffman Encoder
 
 Author
 ----------
 
-
 	高伯文, EE, NSYSU  (B013012011)
 
 Requirement
 ---------------
-
  - CMAKE 3.3 ABOVE
  - c++ compiler with c++11 supported
 
@@ -61,7 +59,7 @@ Execute
 Usage
 ---------
 
-***Server***
+**Server**
 After executing the server program, server is not ready yet. However, server will be ready to server with a single command.
 
 	$server> run
@@ -104,14 +102,15 @@ You have to connect to the server first before you can upload a file.
 
 **Help**
 “help” command is available in both client and server. Take server's help command as example.
-server >
-help
-////////// help //////////
- run [server ip] [port]--open a new server with ip and port provided
- stop [pid]--------------stop a server by specifying its pid (status can tell)
- status------------------the server which are running now
- quit--------------------end all servers and quit program
- help--------------------show this help
+
+	server >
+	help
+	////////// help //////////
+	 run [server ip] [port]--open a new server with ip and port provided
+	 stop [pid]--------------stop a server by specifying its pid (status can tell)
+	 status------------------the server which are running now
+	 quit--------------------end all servers and quit program
+	 help--------------------show this help
 
 
 **Encoding and Decoding**
