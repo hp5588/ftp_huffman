@@ -18,7 +18,7 @@ following instructions will build the top level CMakeList
 	cmake ../ftp_huffman
 	make
 
-after entering the command above the folder structure suppose to look like this
+after entering the command above, the folder structure suppose to look like this
 
 	root.
 	├── build
@@ -39,7 +39,7 @@ after entering the command above the folder structure suppose to look like this
 
 ##Execute
 1. **Enter the build folder**
-* cd path/to/build/folder
+    * cd path/to/build/folder
 2. **Execute Server**
 	#in build folder
 	* \$cd HW2_FtpServer/
@@ -72,7 +72,7 @@ For more details, please use “help” in the server command line.
 
 
 ####**Client**
-To connect to a ready-to-serve server, simply use “connect” command.
+To connect to a ready-to-serve server, simply enter “connect” command.
 
 	$server> connect
 
@@ -106,7 +106,7 @@ To specify the file to upload, “upload” command will be used.
 
 
 ####**Encoding and Decoding**
-While using “upload” command in client, the specified file will be automatically encoded into <file>.enc and <file>.tree. Both of them will then sent to server to be decoded.
+While using “upload” command in client, the specified file will be automatically encoded into <file>.enc and <file>.tree. Both file will then sent to server to be decoded.
 
 
 For encoding feature, it's available independently in client with encode command.
