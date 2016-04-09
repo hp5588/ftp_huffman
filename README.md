@@ -34,7 +34,7 @@ after entering the command above, the folder structure suppose to look like this
 	    ├── Huffman
 	    ├── HW2_FtpClient
 	    ├── HW2_FtpServer
-	    └── README.odt
+	    └── README.md
 
 
 ##Execute
