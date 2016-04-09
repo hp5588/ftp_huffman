@@ -20,21 +20,19 @@ using namespace std;
 vector<int> pidList;
 
 
-void help(vector<string> commandList);
+void help(vector<pair<string,string>> commandList);
 void childDieHandle(int sig);
 
 
 int main() {
 
     cout << "----B013012011 FTP Server----" << endl;
-    vector<string> commandList = {
-            "run",
-            "stop",
-            "help",
-            "status",
-            "quit",
-            "help"
-
+    vector<pair<string,string>> commandList = {
+            {"run [server ip] [port]",  "open a new server with ip and port provided"},
+            {"stop [pid]",              "stop a server by specifying its pid (status can tell)"},
+            {"status",                  "the server which are running now"},
+            {"quit",                    "end all servers and quit program"},
+            {"help",                    "show this help"}
     };
 
 
@@ -47,7 +45,7 @@ int main() {
         Server server(DEFAULT_SERVER_IP,DEFAULT_SERVER_PORT);
 
         string cmd;
-        cout << "server>" <<endl;
+        cout << "server >" <<endl;
         getline(cin,cmd);
 
 
@@ -88,6 +86,10 @@ int main() {
             for (int pid : pidList){
                 if (pid == pidUser){
                     kill(pid,SIGINT);
+
+                    int status;
+                    waitpid(pid,&status,0);
+
                     std::vector<int>::iterator p = std::find(pidList.begin(), pidList.end(), pid);
                     pidList.erase(p, p + 1);
                 }
@@ -134,11 +136,18 @@ void childDieHandle(int sig) {
     }*/
 }
 
-void help(vector<string> commandList) {
-    cout << "---------help---------" <<endl;
-    for (int i = 0; i < commandList.size(); ++i) {
-        cout << " " << std::right << commandList.at(i) << setw(10) << endl;
+void help(vector<pair<string,string>> commandList) {
+    cout << "////////// help //////////" <<endl;
+
+    uint8_t longestLength;
+
+    for (int j = 0; j < commandList.size(); ++j) {
+        if (commandList.at(j).first.length() > longestLength)
+            longestLength = commandList.at(j).first.length();
     }
-    cout << "----------------------" <<endl;
+    for (int i = 0; i < commandList.size(); ++i) {
+        cout << " " << setw(longestLength+2) << std::left <<setfill('-')<< commandList.at(i).first  << commandList.at(i).second << endl;
+    }
+    cout<<endl;
 
 }

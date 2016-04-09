@@ -1,0 +1,7 @@
+This package contains both FTP Client and Server
+
+//BUILD//
+cmake
+
+
+

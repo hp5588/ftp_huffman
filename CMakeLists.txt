@@ -10,6 +10,8 @@ message(STATUS ${HUFFMAN_INCLUDE_DIRS})
 add_subdirectory(Huffman)
 add_subdirectory(HW2_FtpClient)
 add_subdirectory(HW2_FtpServer)
+set(CMAKE_BUILD_DIRECTORY ${CMAKE_SOURCE_DIR}/build)
+
 
 
 

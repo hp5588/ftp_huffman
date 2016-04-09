@@ -91,7 +91,7 @@ bool Server::run() {
     }
 
     /*print connection info*/
-    cout << "Listening on: " << ip.c_str() << ":" << port <<endl;
+    cout << "process "<<getpid()<<" start to listen on: " << ip.c_str() << ":" << port <<endl;
 
     socketVector.push_back(socketFD);
 
