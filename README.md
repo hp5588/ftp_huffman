@@ -10,7 +10,7 @@
  - c++ compiler with c++11 supported
 
 ##Build
-following instructions will build the top level CMakeList
+following instructions will build the top level CMakeLists
 
 	cd path/to/root
 	mkdir build
