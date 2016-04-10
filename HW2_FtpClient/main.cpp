@@ -77,7 +77,7 @@ int main() {
 
     bool on = 1;
     while (on){
-        cout<< "client >" << endl;
+        cout<< "client >";
         string cmdLine;
         getline(cin,cmdLine);
 

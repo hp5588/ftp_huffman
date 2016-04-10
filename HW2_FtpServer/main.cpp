@@ -45,7 +45,7 @@ int main() {
         Server server(DEFAULT_SERVER_IP,DEFAULT_SERVER_PORT);
 
         string cmd;
-        cout << "server >" <<endl;
+        cout << "server >";
         getline(cin,cmd);
 
 

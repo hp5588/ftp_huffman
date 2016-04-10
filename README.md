@@ -6,7 +6,7 @@
 	高伯文, EE, NSYSU  (B013012011)
 
 ##Requirement
- - CMAKE 3.3 ABOVE
+ - CMake 3.3 above
  - c++ compiler with c++11 supported
 
 ##Build
@@ -114,7 +114,7 @@ For encoding feature, it's available independently in client with encode command
 	
 	$client> encode file.txt
 
-The file.txt will be encoded into two file then saved (“file.txt.enc” and “file.txt.tree”). 
+The file.txt will be encoded into two file then saved (“file.txt.enc” and “file.txt.tree”).
 
 With these two files, we can obtain the original file by using decode command in client
 
