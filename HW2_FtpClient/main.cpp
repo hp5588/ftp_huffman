@@ -15,23 +15,14 @@
 #include <fstream>
 #include <iomanip>
 
-//#define DEFAULT_LOCAL_IP "192.168.11.4"
-//#define DEFAULT_LOCAL_IP "192.168.1.22"
-#define DEFAULT_LOCAL_IP "127.0.0.1"
-//#define DEFAULT_IP "192.168.1.200"
-//#define DEFAULT_IP "192.168.1.102"
+
 #define DEFAULT_IP "127.0.0.1"
-//#define DEFAULT_IP "192.168.11.3"
-//#define DEFAULT_IP "ks-machining.com"
+
 
 #define DEFAULT_FILE_PATH "file.txt"
 
 #define DEFAULT_PORT 8000
-#define DEFAULT_LOCAL_PORT 2030
-//#define DEFAULT_USER "print"
-#define DEFAULT_PASSWORD "99798"
-#define DEFAULT_USER "brian"
-//#define DEFAULT_PASSWORD "99798"
+
 
 using namespace std;
 

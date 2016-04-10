@@ -1,7 +1,7 @@
 #**FTP Server & Client**
 ###With Huffman Encoder
 
-##Author#
+##Author
 
 	高伯文, EE, NSYSU  (B013012011)
 
@@ -42,11 +42,11 @@ after entering the command above, the folder structure suppose to look like this
 1. **Enter the build folder**
     * cd path/to/build/folder
 2. **Execute Server**
-	#in build folder
+	\#in build folder
 	* $cd HW2_FtpServer/
 	* $./ftpClient
 3. **Execute Client**
-	#in build folder
+	\#in build folder
 	* $cd HW2_FtpClient/
 	* $./ftpServer
 
